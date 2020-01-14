@@ -1,8 +1,7 @@
 package Project3;
 import java.util.concurrent.ThreadLocalRandom;
+import java.util.Queue;
 
-import cs212lib.Queue;
-import cs212lib.QueueException;
 
 public class Arrival extends Thread {
 	private Queue <Airline> queue;
